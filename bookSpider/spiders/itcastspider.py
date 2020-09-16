@@ -1,4 +1,6 @@
 __author__ = '努力学习 不要让自己失望'
+
+# 放置spider代码的目录。
 import scrapy
 from bookSpider.items import ItcastItems
 
@@ -37,6 +39,4 @@ class ItcastSpider(scrapy.Spider):
                 f.write(title[0])
                 f.write(info[0])        '''
 
-
             yield item
-

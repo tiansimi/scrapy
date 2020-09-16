@@ -5,6 +5,8 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
+
+# 需要提取的数据结构定义文件
 import scrapy
 
 
